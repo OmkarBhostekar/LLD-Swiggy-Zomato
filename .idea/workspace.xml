@@ -5,11 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d2536c7-940d-4ce7-9465-12c913790756" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/swiggy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/swiggy/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/swiggy/common/IPartner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/swiggy/common/IPartner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/swiggy/common/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/swiggy/common/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/swiggy/food/FoodManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/swiggy/food/FoodService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/swiggy/food/IFood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/swiggy/food/IFood.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/swiggy/order/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/swiggy/order/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/swiggy/order/OrderManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/swiggy/order/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/swiggy/restaurant/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/swiggy/restaurant/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/swiggy/restaurant/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/swiggy/restaurant/Restaurant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/swiggy/restaurant/RestaurantManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/swiggy/restaurant/RestaurantService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +35,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2rsWNMRhZWLPct3flMlmg5G9hQI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -44,16 +51,24 @@
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.swiggy.order" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="homebrew-23" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.example.swiggy.Main" />
       <module name="OnlineFoodOrderingSystem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.swiggy.*" />
+          <option name="PATTERN" value="com.example.swiggy.common.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

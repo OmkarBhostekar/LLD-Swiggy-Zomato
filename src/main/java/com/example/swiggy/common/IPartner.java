@@ -2,7 +2,7 @@ package com.example.swiggy.common;
 
 abstract public class IPartner {
     protected double rating;
-    private String name;
+    protected String name;
 
     protected IPartner(String mName) {
         this.name = mName;

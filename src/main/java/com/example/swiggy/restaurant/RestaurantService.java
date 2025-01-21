@@ -3,19 +3,19 @@ package com.example.swiggy.restaurant;
 import java.util.HashMap;
 import java.util.Map;
 
-public class RestaurantManager {
-    private static RestaurantManager instance = null;
+public class RestaurantService {
+    private static RestaurantService instance = null;
     private static final Object lock = new Object();
     private final Map<String, Restaurant> restaurants;
 
-    private RestaurantManager() {
+    private RestaurantService() {
         restaurants = new HashMap<>();
     }
 
-    public static RestaurantManager getInstance() {
+    public static RestaurantService getInstance() {
         synchronized (lock) {
             if (instance == null) {
-                instance = new RestaurantManager();
+                instance = new RestaurantService();
             }
         }
         return instance;

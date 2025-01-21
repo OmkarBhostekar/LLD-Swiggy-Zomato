@@ -13,7 +13,7 @@ abstract public class IFood {
         price = mPrice;
     }
 
-    String getName() {
+    public String getName() {
         return name;
     }
 

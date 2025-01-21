@@ -39,8 +39,8 @@ public class Order {
         this.status = status;
     }
 
-    public String getUser() {
-        return user.getId();
+    public User getUser() {
+        return user;
     }
 
     public String getRestaurant() {

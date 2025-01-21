@@ -2,7 +2,6 @@ package com.example.swiggy.restaurant;
 
 import com.example.swiggy.common.Location;
 import com.example.swiggy.food.IFood;
-import com.example.swiggy.order.Order;
 
 import java.util.HashMap;
 
@@ -26,6 +25,12 @@ public class Restaurant {
 
     public void prepareFood(HashMap<IFood, Integer> dishes) {
         // Prepare food
+        System.out.println("Preparing food - "+ name);
+        dishes.forEach((dish, quantity) -> {
+            System.out.println(quantity + " of " + dish.getName());
+        });
+        System.out.println("\n");
+
     }
 
     public Menu getMenu() {
