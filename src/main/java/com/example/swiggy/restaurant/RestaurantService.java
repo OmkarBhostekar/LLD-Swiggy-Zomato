@@ -22,7 +22,7 @@ public class RestaurantService {
     }
 
     public void addRestaurant(Restaurant restaurant) {
-        restaurants.put(restaurant.getName(), restaurant);
+        restaurants.put(restaurant.getId(), restaurant);
     }
 
     public Restaurant getRestaurant(String name) {

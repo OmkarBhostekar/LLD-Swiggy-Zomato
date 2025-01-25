@@ -9,6 +9,9 @@ import com.example.swiggy.food.Dish;
 import com.example.swiggy.food.IFood;
 import com.example.swiggy.order.Order;
 import com.example.swiggy.order.OrderService;
+import com.example.swiggy.payment.Payment;
+import com.example.swiggy.payment.PaymentMethod;
+import com.example.swiggy.payment.PaymentService;
 import com.example.swiggy.restaurant.Menu;
 import com.example.swiggy.restaurant.Restaurant;
 import com.example.swiggy.restaurant.RestaurantOwner;
@@ -21,6 +24,7 @@ public class Main {
         RestaurantService restaurantService = RestaurantService.getInstance();
         OrderService orderService = OrderService.getInstance();
         DeliveryPartnerService deliveryPartnerService = DeliveryPartnerService.getInstance();
+        PaymentService paymentService = PaymentService.getInstance();
 
         User user = new User("1", "Ram", new Location(0,0));
         User user2 = new User("2", "Shyam", new Location(1,1));
@@ -45,13 +49,19 @@ public class Main {
         dish1 = new AddOn("Coke", 30, dish1);
         dish2 = new AddOn("Sauce", 10, dish2);
 
+        // cart is temporary, just before placing order, can have its own service
         HashMap<IFood, Integer> cart = new HashMap<>();
         cart.put(dish1, 2);
         cart.put(dish2, 1);
 
-        Order order = new Order("order1", user, restaurant, cart);
+        double totalAmount = 0;
+        for (IFood food : cart.keySet()) {
+            totalAmount += food.getPrice() * cart.get(food);
+        }
+        Order order = new Order("order1", user, restaurant, cart, PaymentMethod.UPI, "TRYNEW30");
 
         orderService.placeOrder(user.getId(), order);
+        paymentService.processPayment(order.getId());
 
     }
 }

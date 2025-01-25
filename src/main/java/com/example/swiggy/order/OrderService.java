@@ -28,7 +28,7 @@ public class OrderService {
     public void placeOrder(String userId, Order order) {
         orders.put(order.getId(), order);
         FoodService foodService = FoodService.getInstance();
-        foodService.prepareFood(order.getId() ,order.getRestaurant(), order.getDishes());
+        foodService.prepareFood(order.getId() ,order.getRestaurant().getId(), order.getDishes());
 
         // order is placed, add user for notifications for this order
         NotificationService notificationService = NotificationService.getInstance();

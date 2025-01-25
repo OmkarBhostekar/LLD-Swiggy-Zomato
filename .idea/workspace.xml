@@ -4,19 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d2536c7-940d-4ce7-9465-12c913790756" name="Changes" comment="">
+    <list default="true" id="0d2536c7-940d-4ce7-9465-12c913790756" name="Changes" comment="delivery strategy, matching &amp; notifications done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/swiggy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/swiggy/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/swiggy/common/IPartner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/swiggy/common/IPartner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/swiggy/common/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/swiggy/common/Location.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/swiggy/food/FoodManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/swiggy/food/FoodService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/swiggy/food/IFood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/swiggy/food/IFood.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/swiggy/order/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/swiggy/order/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/swiggy/order/OrderManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/swiggy/order/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/swiggy/restaurant/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/swiggy/restaurant/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/swiggy/restaurant/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/swiggy/restaurant/Restaurant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/swiggy/restaurant/RestaurantManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/swiggy/restaurant/RestaurantService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/swiggy/order/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/swiggy/order/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/swiggy/restaurant/RestaurantService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/swiggy/restaurant/RestaurantService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,15 +39,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.swiggy.order" />
@@ -91,6 +84,30 @@
       <option name="presentableId" value="Default" />
       <updated>1737348222495</updated>
     </task>
+    <task id="LOCAL-00001" summary="delivery strategy, matching &amp; notifications done">
+      <option name="closed" value="true" />
+      <created>1737488521715</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1737488521715</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="delivery strategy, matching &amp; notifications done" />
+    <option name="LAST_COMMIT_MESSAGE" value="delivery strategy, matching &amp; notifications done" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/swiggy/payment/PaymentService.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
